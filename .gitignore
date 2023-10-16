@@ -1,0 +1,8 @@
+.terraform
+.vscode
+*.out
+.terragrunt-cache
+.bundle
+.ruby-version
+.terraform.lock.hcl
+terragrunt
