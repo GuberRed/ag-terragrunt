@@ -1,0 +1,5 @@
+.terraform
+*.out
+.terragrunt-cache
+.terraform.lock.hcl
+terragrunt
