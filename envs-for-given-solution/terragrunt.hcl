@@ -14,7 +14,7 @@ remote_state {
     project  = "gcp-coe-msp-sandbox"
     location = "europe-west1"
     bucket   = "adam-g-cloudbuildtest"
-    prefix   = "terragrunt/${local.customer_name}/${local.environment}"
+    prefix   = "terragrunt/${path_relative_to_include()}"#${local.environment}"
   }
   generate = {
     path      = "backend.tf"

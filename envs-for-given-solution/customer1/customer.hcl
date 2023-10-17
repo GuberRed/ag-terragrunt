@@ -1,3 +1,3 @@
 locals{
-    customer_name="testcompany"
+    customer_name="agcompany"
 }
