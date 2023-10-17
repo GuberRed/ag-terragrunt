@@ -4,3 +4,7 @@ include "root" {
 terraform {
   source = "../../../../../modules/bucket-creation"
 }
+dependency "sa-creation" {
+  config_path = "../sa-creation"
+  skip_outputs = true
+}

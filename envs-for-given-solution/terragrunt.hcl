@@ -13,7 +13,7 @@ remote_state {
   config = {
     project  = "gcp-coe-msp-sandbox"
     location = "europe-west1"
-    bucket   = "terragrunt-test-cms"
+    bucket   = "adam-g-cloudbuildtest"
     prefix   = "terragrunt/${local.customer_name}/${local.environment}"
   }
   generate = {
