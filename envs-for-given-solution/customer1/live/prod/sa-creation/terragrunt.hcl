@@ -2,5 +2,5 @@ include "root" {
   path = find_in_parent_folders()
 }
 terraform {
-  source = "../../sa-creation"
+  source = "../../../../../modules/sa-creation"
 }
