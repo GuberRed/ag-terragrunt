@@ -7,6 +7,3 @@ variable "bucket_name" {
 variable "ops_location" {
   type        = string
 }
-variable "sa_account_id"  {
-    type = string
-}
