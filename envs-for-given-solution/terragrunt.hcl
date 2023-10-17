@@ -1,4 +1,8 @@
 locals{
+    #customer level vars
+    customer_vars = read_terragrunt_config(find_in_parent_folders("customer.hcl"))
+    customer_name = local.customer_vars.locals.environment
+    #environment level vars
     environment_vars = read_terragrunt_config("env.hcl")
     environment  = local.environment_vars.locals.environment
     ops_project_id  = local.environment_vars.locals.ops_project_id
